@@ -7,3 +7,7 @@ function sum(value, size = {value : 1}){
 }
 
 console.log(sum(3,{value:3}));
+
+function add(value, size=1) {
+    return value + size;
+}
